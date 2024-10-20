@@ -1,0 +1,23 @@
+export const whDocDetailModel = (id) => ({
+    id: id,
+    dtId: null,
+    whDocId: null,
+    line: null,
+    itemId: null,
+    itemCode: null,
+    itemName: null,
+    itemOnHand: null,
+    itemIncrease: null,
+    itemDecrease: null,
+    itemBalance: null,
+    itemUnit: null,
+    itemPriceUnit: null,
+    itemTotal: null,
+    docType: null,
+    fWhId: null,
+    fZoneId: null,
+    fLtId: null,
+    tWhId: null,
+    tZoneId: null,
+    tLtId: null
+});

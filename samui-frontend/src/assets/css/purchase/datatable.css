@@ -1,0 +1,71 @@
+.input-group {
+    width: 100%;
+}
+
+.input-group-text {
+    border-left: none;
+}
+
+.input-group .btn-warning {
+    margin-left: 5px;
+    /* หรือมากกว่านั้นตามต้องการ */
+}
+
+.custom-button {
+    background-color: #EF6C00;
+    color: white;
+    border: none;
+    /* ถ้าต้องการให้ไม่มีกรอบ */
+}
+
+.custom-button:disabled {
+    background-color: #EF6C00;
+    color: white;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/*     Table    */
+.table {
+    width: 100%;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: 1px solid #00000025 !important;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+    vertical-align: middle;
+}
+
+.table>tfoot>tr>td,
+.table>tfoot>tr>th {
+    padding: 12px 24px !important;
+}
+
+.table .thead-dark th {
+    background-color: #EF6C00;
+    color: #fff;
+}
+
+.table-responsive {
+    width: 100% !important;
+    overflow-x: auto;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.table th,
+.table td {
+    border: 1px solid #00000025 !important;
+    background-color: #f8f9fa;
+    overflow: hidden;
+    vertical-align: middle;
+}

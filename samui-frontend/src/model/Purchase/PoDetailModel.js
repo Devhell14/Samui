@@ -1,0 +1,22 @@
+export const poDetailModel = (id) => ({
+    id: id,
+    dtId: null,
+    docId: null,
+    line: null,
+    itemId: null,
+    itemCode: null,
+    itemName: null,
+    itemQty: null,
+    itemUnit: null,
+    itemPriceUnit: null,
+    itemDiscount: null,
+    itemDisType: null,
+    itemTotal: null,
+    itemRecQty: null,
+    itemRecBalance: null,
+    itemStatus: null,
+    whId: null,
+    zoneId: null,
+    ltId: null,
+    dsSeq: null
+});
